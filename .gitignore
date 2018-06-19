@@ -1,0 +1,15 @@
+.DS_Store
+.merlin
+.idea/
+jest_0/
+lib/bs/
+lib/js/src/
+reference/
+node_modules/
+mine/
+
+dist/
+
+.bsb.lock
+
+yarn.lock

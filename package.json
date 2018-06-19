@@ -1,6 +1,6 @@
 {
     "name": "wonder-tool-converter",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "scripts": {
         "watch": "bsb -clean-world -make-world -w",
         "build": "bsb -clean-world -make-world",

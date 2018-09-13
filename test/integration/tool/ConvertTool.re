@@ -7,8 +7,8 @@ let readWDB = wdbFilePath => {
 };
 
 let getWDFileContent = wdb => {
-  let (wdFileContent, _) =
-    BinaryUtils.decode(wdb, AssembleWDBSystem._checkWDB);
+  let (wdFileContent, _, _) =
+    BufferUtils.decodeWDB(wdb, AssembleWholeWDBSystem._checkWDB);
 
   wdFileContent;
 };
